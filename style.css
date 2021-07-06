@@ -43,11 +43,10 @@ nav ul li a{
     font-weight: 600;
 }
 
-a:hover{
-    transition: 0.5s;
+.nav-hover:hover{
     color: tomato;
+    transition: 0.5s;
 }
-
 .logo{
     color: white;
     font-weight: bold;
