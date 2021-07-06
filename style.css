@@ -24,7 +24,7 @@ nav{
     align-items: center;
     height: 60px;
     background-color: #222358;
-    box-shadow: 2px 2px 12px #DADADA;
+    box-shadow: 2px 2px 15px #DADADA;
     padding: 0px 7%;
 }
 
@@ -123,16 +123,13 @@ h3{
 
 .about-me{
     background-image: url(images/shapes/7.png);
-    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .about-me img{
-    padding-left: 50px;
-    width: 60%;
-    height: 450px;
+    width: 90%;
 }
 #my-recipe{
     text-align: center;
@@ -152,7 +149,7 @@ h3{
 }
 
 .recipe-item{
-    width: 30%;
+    width: 23%;
     margin-left: 5%;
     margin-right: 5%;
     box-shadow: 0px 5px 25px #DEDEDE;
@@ -178,6 +175,7 @@ h3{
 .social-area{
     display: flex;
     width: 90%;
+    height: 250px;
     margin-left: 5%;
     margin-right: 5%;
     justify-content: center;
@@ -189,9 +187,18 @@ h3{
 .social-info{
     width: 20%;
     text-align: center;
+    padding-top: 40px;
     margin-left: 5%;
     margin-right: 5%;
 
+}
+
+.social-media-name{
+    font-size: 14px;
+    text-align: center;
+    color: #3D4668;
+    margin: -30px 0px;
+    padding-left: 25px;
 }
 
 #bottom-bg{
