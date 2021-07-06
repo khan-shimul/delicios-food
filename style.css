@@ -40,7 +40,7 @@ nav ul li a{
     margin: 30px;
     color: white;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 a:hover{
@@ -170,6 +170,36 @@ h3{
     color: #3D4668;
     line-height: 25px;
     margin-top: -15px;
+}
+
+.delivery-container{
+    background-color: #FBFBFB;
+}
+
+.delivery-flexible{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+.delivery-triple-width{
+    width: 23%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.delivery-triple-width img{
+    width: 30%;
+    margin-top: 5%;
+}
+
+.delivery-triple-width p{
+    font-size: 14px;
+    line-height: 23px;
+    color: #3D4668;
+    font-weight: 500;
 }
 
 .social-area{
